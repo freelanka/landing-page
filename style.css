@@ -24,6 +24,11 @@
 }
 
 .first_body {
+    display:flex;
+    flex-wrap:wrap
+}
+
+.list_body {
     display:flex
 }
 
