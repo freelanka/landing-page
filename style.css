@@ -1,0 +1,40 @@
+
+.header {
+    display: flex;
+}
+
+.introduction {
+    display: flex;
+}
+
+.left_introduction {
+    display: flex;
+}
+
+.right_introduction {
+    display:flex
+}
+
+.first_body {
+    display:flex
+}
+
+.inspriational_quote {
+    display:flex
+}
+
+.call_to_action {
+    display: flex;
+}
+
+.left_call_to_action {
+    display:flex
+}
+
+.right_call_to_action {
+    display:flex
+}
+
+.footer {
+    display:flex
+}
