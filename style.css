@@ -1,8 +1,14 @@
+body {
+    margin: 0;
+}
+
 .header {
     display: flex;
     flex: 1;
     justify-content: space-between;
     align-items: center;
+    background-color: #1f2937;
+    color: white;
 }
 
 .header_link {
@@ -12,6 +18,9 @@
 
 .introduction {
     display: flex;
+    background-color: #1f2937;
+    color: white;
+    padding: 48px;
 }
 
 .left_introduction {
@@ -20,7 +29,7 @@
 }
 
 .right_introduction {
-    display:flex
+    display:flex;
 }
 
 .first_body {
@@ -32,8 +41,9 @@
     display:flex
 }
 
-.inspriational_quote {
-    display:flex
+.inspirational_quote {
+    display:flex;
+    background-color: #e5e7eb;
 }
 
 .call_to_action {
@@ -49,9 +59,18 @@
 }
 
 .footer {
-    display:flex
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
 }
 
 ul {
     list-style: none;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
 }
