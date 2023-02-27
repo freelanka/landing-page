@@ -1,5 +1,14 @@
 body {
-    margin: 0;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*Whole page padding*/
+.header, .introduction, .first_body, .inspirational_quote, .call_to_action, .footer {
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .header {
@@ -20,12 +29,15 @@ body {
     display: flex;
     background-color: #1f2937;
     color: white;
-    padding: 48px;
+    padding-top: 72px;
+    padding-bottom: 72px;
 }
 
 .left_introduction {
     display: flex;
     flex-direction: column;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .right_introduction {
@@ -34,24 +46,42 @@ body {
 
 .first_body {
     display:flex;
-    flex-wrap:wrap
+    flex-wrap:wrap;
+    justify-content: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    
 }
 
 .list_body {
-    display:flex
+    display:flex;
+    gap: 24px;
+    
 }
 
 .inspirational_quote {
     display:flex;
+    flex-direction: column;
     background-color: #e5e7eb;
+    align-items: center;
+    justify-content: center;
+    padding-left: 18%;
+    padding-right: 18%;
+    padding-top: 72px;
+    padding-bottom: 72px;
 }
 
 .call_to_action {
     display: flex;
+    justify-content: center;
 }
 
 .left_call_to_action {
-    display:flex
+    display:flex;
+    flex-direction:column;
+
 }
 
 .right_call_to_action {
@@ -68,9 +98,24 @@ body {
 
 ul {
     list-style: none;
+    margin: 0px;
+    padding: 0px;
 }
 
+/*Enables Image to fit Container */
 img {
     max-width: 100%;
     max-height: 100%;
+}
+
+.image_border {
+    border-style: ridge;
+    border-color: blue;
+}
+
+/*Extra bold text*/
+.extra_bold {
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0px;
 }
